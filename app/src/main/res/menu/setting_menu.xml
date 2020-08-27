@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/wifiFragment"
+        android:icon="@drawable/ic_wifi"
+        android:title="WIFI" />
+    <item
+        android:id="@+id/bluetoothFragment"
+        android:icon="@drawable/ic_bluetooth"
+        android:title="BlueTooth" />
+</menu>

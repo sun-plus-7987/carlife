@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setting_navigation"
+    app:startDestination="@id/wifiFragment">
+
+    <fragment
+        android:id="@+id/wifiFragment"
+        android:name="com.alphine.team4.carlife.ui.setting.WifiFragment"
+        android:label="fragment_wifi"
+        tools:layout="@layout/fragment_wifi" />
+    <fragment
+        android:id="@+id/bluetoothFragment"
+        android:name="com.alphine.team4.carlife.ui.setting.BluetoothFragment"
+        android:label="fragment_bluetooth"
+        tools:layout="@layout/fragment_bluetooth" />
+</navigation>
